@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- StyleSheet -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Fruity</title>
 </head>
@@ -22,14 +22,13 @@
         <nav class="nav">
             <div class="nav__center container">
                 <div class="logo">
-                    <h1>Fruity</h1>
+                    <h1 style="padding-left:30px; color: white;">Fruity</h1>
                 </div>
 
                 <div class="nav__menu">
-                    <ul class="nav__list">
+                    <ul class="nav__list" style="font-size: 23px;">
                         <li class="nav__item">
                             <a href="#header" class="nav__link scroll-link">Home</a>
-                            
                         </li>
 
                         <li class="nav__item">
@@ -55,13 +54,13 @@
                         </li>
                     </ul>
 
-                    <!-- <div class="cart flex__center">
+                    <div class="cart flex__center">
                         <span>
                             <svg>
                                 <use xlink:href="./images/sprite.svg#icon-cart-plus"></use>
                             </svg>
                         </span>
-                    </div> -->
+                    </div>
 
                     <div class="hamburger flex__center">
                         <svg>
@@ -72,14 +71,14 @@
             </div>
         </nav>
 
-        <div class="hero">
+        <div class="hero" style="padding-left: 60px;">
             <div class="hero__center container">
                 <div class="hero__left">
+                    <h4 style="font-family: cursive; font-weight: lighter; color: rgb(100, 152, 21);">"Sip, Smile, and Savor the Freshness!"</h4>
                     <h1>Fresh Juice</h1>
                     <p>
-                        We Beleive That Healthy Eating, Clean Air And, Gental Char Best Start To Genuinw Wellbeging.
-                    </p>
-                    <button type="button" class="btn">Shop Now</button>
+                        Fresh juice is nature's refreshing elixir, brimming with vitality and countless benefits for our well-being. As fruits and vegetables are pressed or blended, they release a vibrant concoction of vitamins, minerals, and antioxidants, making every sip a nutritional powerhouse.</p>
+                    <a href="#" class="button hero__btn">Shop Now</a>
                 </div>
 
                 <div class="hero__right">
@@ -98,15 +97,15 @@
     <!-- New Products -->
 
     <main>
-        <section class="section new" id="new">
-            <div class="new__center container">
+        <section style="background-image: url(flower.jpeg); background-repeat: no-repeat; background-size: cover;" class="section new" id="new">
+            <div  class="new__center container">
                 <div class="title">
                     <h1>New Products</h1>
                 </div>
 
                 <div class="product__center">
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #ac6b7f;" class="product__header">
                             <img src="./images/product5.png" alt="">
                             <span class="flex__center">
                                 <svg>
@@ -115,7 +114,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Red Grapes</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -147,7 +146,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #fdb91ae0;"class="product__header">
                             <img src="./images/product6.png" alt="">
                             <span>
                                 <svg>
@@ -156,7 +155,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Alphonso Mango</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -188,7 +187,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #ff5552bf;" class="product__header">
                             <img src="./images/product7.png" alt="">
                             <span>
                                 <svg>
@@ -197,7 +196,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Strawberry</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -229,8 +228,8 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
-                            <img src="./images/product8.png" alt="">
+                        <div style="background-color: #a6aa9f;" class="product__header">
+                            <img src="plum.png" alt="">
                             <span>
                                 <svg>
                                     <use xlink:href="./images/sprite.svg#icon-camera"></use>
@@ -238,7 +237,174 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Plum</h2>
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h4 class="price">$500</h4>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="product__center">
+                    <div class="product">
+                        <div style="background-color: #f676b0;" class="product__header">
+                            <img src="drag.png" alt="">
+                            <span class="flex__center">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-camera"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="product__footer">
+                            <h2>Dragon Fruit</h2>
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h4 class="price">$500</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div style="background-color: #abbad3;" class="product__header">
+                            <img src="berri.png" alt="">
+                            <span>
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-camera"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="product__footer">
+                            <h2>Berries</h2>
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h4 class="price">$500</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div style="background-color: #c3d06a;" class="product__header">
+                            <img src="kiwi.png" alt="">
+                            <span>
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-camera"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="product__footer">
+                            <h2>Kiwi</h2>
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h4 class="price">$500</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div style="background-color:#fbd780;"class="product__header">
+                            <img src="papa.png" alt="">
+                            <span>
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-camera"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="product__footer">
+                            <h2>Papaya</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -275,14 +441,14 @@
 
         <!-- Category -->
         <section class="section category">
-            <div class="category__center container">
+            <div class="category__center container;">
                 <div class="category__left">
                     <div class="content">
                         <h2>Daily Fresh</h2>
                         <h1>Fresh Fruits</h1>
                         <a href="#" class="button category__btn">Shop Now</a>
                     </div>
-                    <img src="./images/cat2.png" alt="">
+                    <img src="or.png" alt="">
                 </div>
 
                 <div class="category__right">
@@ -297,7 +463,7 @@
         </section>
 
 
-        <section class="section all__products" id="all">
+        <section style="background-image: url(ccc.jpeg); background-repeat: no-repeat; background-size: contain;" class="section all__products" id="all">
             <div class="all__center container">
                 <div class="title">
                     <h1>All Products</h1>
@@ -305,7 +471,7 @@
 
                 <div class="product__center">
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #eb7364;"  class="product__header">
                             <img src="./images/product11.png" alt="">
                             <span>
                                 <svg>
@@ -314,7 +480,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Water Melon</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -346,7 +512,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #c92816e4;" class="product__header">
                             <img src="./images/product10.png" alt="">
                             <span>
                                 <svg>
@@ -355,7 +521,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Apple</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -387,8 +553,8 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
-                            <img src="./images/product9.png" alt="">
+                        <div style="background-color: #b72f3dbd;" class="product__header">
+                            <img src="cherry.png" alt="">
                             <span>
                                 <svg>
                                     <use xlink:href="./images/sprite.svg#icon-camera"></use>
@@ -396,7 +562,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Cherry</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -428,8 +594,8 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
-                            <img src="./images/product8.png" alt="">
+                        <div style="background-color: #ee6640c5;" class="product__header">
+                            <img src="peach.png" alt="">
                             <span>
                                 <svg>
                                     <use xlink:href="./images/sprite.svg#icon-camera"></use>
@@ -437,7 +603,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Peach</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -469,8 +635,8 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
-                            <img src="./images/product7.png" alt="">
+                        <div style="background-color: #bc8994;" class="product__header">
+                            <img src="fig.png" alt="">
                             <span>
                                 <svg>
                                     <use xlink:href="./images/sprite.svg#icon-camera"></use>
@@ -478,7 +644,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Fig</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -510,7 +676,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #fec833d2;" class="product__header">
                             <img src="./images/product6.png" alt="">
                             <span>
                                 <svg>
@@ -519,7 +685,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Mango</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -551,7 +717,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #ac6b7f;" class="product__header">
                             <img src="./images/product5.png" alt="">
                             <span>
                                 <svg>
@@ -560,7 +726,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Red Grapes</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -592,7 +758,7 @@
                         </div>
                     </div>
                     <div class="product">
-                        <div class="product__header">
+                        <div style="background-color: #f0c949ae;" class="product__header">
                             <img src="./images/product4.png" alt="">
                             <span>
                                 <svg>
@@ -601,7 +767,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Banana</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -636,7 +802,7 @@
             </div>
         </section>
 
-        <section class="section" id="featured">
+        <section style="background-image: url(bback.jpeg); background-repeat: no-repeat; background-size: contain;" class="section" id="featured">
             <div class="new__center container">
                 <div class="title">
                     <h1>Featured Products</h1>
@@ -645,7 +811,7 @@
                 <div class="product__center">
                     <div class="product">
                         <div class="product__header">
-                            <img src="./images/product1.png" alt="">
+                            <img style="width: 600px;" src="./images/product1.png" alt="">
                             <span>
                                 <svg>
                                     <use xlink:href="./images/sprite.svg#icon-camera"></use>
@@ -653,7 +819,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Pineapple</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -694,7 +860,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Mango</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -735,7 +901,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Lemon</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
@@ -776,7 +942,7 @@
                             </span>
                         </div>
                         <div class="product__footer">
-                            <h2>Quiz Alikomi</h2>
+                            <h2>Banana</h2>
                             <div class="rating">
                                 <span>
                                     <svg>
